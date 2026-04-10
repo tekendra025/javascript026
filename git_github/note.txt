@@ -54,3 +54,15 @@ What GitHub does:
 #to clone github repo in pc 
 -Go to the GitHub repo → click Code → copy URL  like: https://github.com/user/project.git then 
 - open terminal and git clone https://github.com/user/project.git
+
+#Commands to Update Your Repo
+-to check which file changes: git status
+-git add .
+-git commit -m "your message"
+-git push
+
+# or with file name:
+-git status
+-git add filename.js
+-git commit -m "your message"
+-git push
