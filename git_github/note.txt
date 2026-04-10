@@ -40,3 +40,17 @@ What GitHub does:
 
 #to remove git folder link
  -> rm -rf  .git
+
+
+#To push code in github
+-git init
+-git add .
+-git commit -m "first commit"
+-git branch -M main
+-git remote add origin https://github.com/tekendra025/javascript026.git
+-to check repo: git remote -v
+-now to puch code: git push -u origin main
+
+#to clone github repo in pc 
+-Go to the GitHub repo → click Code → copy URL  like: https://github.com/user/project.git then 
+- open terminal and git clone https://github.com/user/project.git
