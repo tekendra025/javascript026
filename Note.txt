@@ -1,0 +1,141 @@
+___________Javascript________________
+-Javascript is called scripting language not programming language made for webpages
+-console types:
+              1.console.log()- to print normaloutputs
+              2.console.error() - to show errors if condition not true. It is in red color
+              3.console.warn() -to show warning but not error. It is in yello colors
+              4.window.alert() - shwos a popup message in a browser
+
+
+________________Variable__________________
+-Variable is simply a container to store data or value
+
+######Types of Variable
+            1.Var:
+             - It is a old method to declare varible.
+             -It can be redeclare:
+                          var age = 50
+                           var age = 12
+                            console.log(age) //output 12
+             - It can be update:
+                          var age = 50
+                             age = 12 //only update no use var
+                            console.log(age) //output 12
+            - It is global scope:
+                         -means if it is declare ouside the function or inside {}-(block scope) it can be access everywhere in program 
+                          -but it doesnt means if i declare var inside fucntion then it cannot be declare ouside the function. This is called local scocpe
+                          
+                          var a = 20
+                          function avg(){
+                            var b = 30
+                            console.log(a) //it is true but
+                           }
+                           console.log(b) //here b cannot be access because b is a local scope. 
+                          
+
+            2.let:
+              - It is latest method
+              -It cannot be redeclare:
+                       let city = "ktm"
+                       let city = "Pokhara"
+                        console.log(city) //it prints error
+            -It value can be change:
+                       let city = "ktm"
+                        city = "Pokhara"
+                        console.log(city) //it prints pokhara
+             - it is block scope: 
+                     block scope means variable declare inside {}. Function also works . If variable inside fucntion then it is called local and if inside {} it is block scope. It works in both           
+                     
+                     if (true) {
+                     let a = 10; //a is a block scope inside {}
+                      console.log(a); // ✅ works
+                              }
+
+                       console.log(a); // ❌ error
+
+                 - also works inside function 
+                  
+                   function test() {
+                     let a = 10; //here a is a local scope
+                    console.log(a); // ✅ works
+                     }
+                     console.log(a); // ❌ error
+            
+            Block scope ≠ Local scope
+            Block scope is a type of local scope
+            
+            
+            
+            3.const:
+                -its value is constant/fixed through the program
+                -Its value cannot be redeclare
+                -Its value cannot be change/update
+                     const a = 10
+                     const  a = 20; or simpley a = 20 -no update value
+                     console.log(a) //error
+                
+                -It is alos a block scope like let
+
+
+
+/////////////////////////////
+Inner layer can access outer layer
+Outer cannot access inner
+ It works because a act as global::
+       const a = 20;
+
+     {
+  console.log(a); //  works
+     }
+///////////////but not reversed works
+         {
+  const b = 30;
+}
+
+console.log(b); // error
+Global scope
+   ↓
+Block scope
+
+
+
+___________________________________________________________________________
+//Data-Types:
+     // 1-Primitive - for single data:(In javascript no int and float)
+              -String- Text data written in double or single quotation
+              -number
+              -boolean
+              -undefined
+              -null
+     // 2-Non-primitive data - for multiple value like array
+
+//Operator:
+   -symbol to perform opertaion on varibales
+
+Types of Operator:
+          -1. Arithmetic opertaor=> -,+,/, *, %
+          -2. Assignment operator=> =, +=, -=, /=, %=
+          -3. comparision operator=> ==,===, >, <, >=, <=, !=, !==
+               -> == is used to check value only but === is used to check data types also.
+          -4. logical operator, and, or, not
+          -5. Ternary operators => if....else 
+
+
+
+//Loops:
+  1. For Loop: block of code ma hunxa, like initilization(vaneko starting point or value), condition, increment and decrement in same line  
+  2.while Loop: step by step; first stpe initilization, then condition, then inc or decr
+  3.do while loop: 
+
+
+//Conditional statement
+1. if: condition true wlala statement chalxa if ma ..
+2. else : condition false wala statement chalxa else ma ...
+3. if-else
+4. if else-if else
+5. Nested if statement
+
+
+
+ 
+                    

@@ -1,0 +1,42 @@
+git / github
+
+git: version controller
+    -It helps you track changes in your code
+    -history track
+    -locally host
+    -to link vs-code and github
+
+What Git does:
+-Tracks file changes
+-Saves history
+-Lets you undo mistakes
+-Works on your local computer
+
+
+What is GitHub?
+GitHub is a cloud platform for Git repositories
+It stores your Git projects online
+
+What GitHub does:
+-store code
+-Backup your code online
+-Share code with others
+-Collaboration (team work)
+-Open-source projects
+
+
+#step to link vs code with github:
+-terminal + icon then git bash then 
+-config --global user.name "username"
+-config --global user.email "email"
+
+#To conform:
+       -check 
+         -config --global user.name 
+         -config --global user.email
+
+#to check git folder link
+ -ls -a
+
+#to remove git folder link
+ -> rm -rf  .git
