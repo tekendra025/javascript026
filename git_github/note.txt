@@ -66,3 +66,5 @@ What GitHub does:
 -git add filename.js
 -git commit -m "your message"
 -git push
+
+#if file is not in main folder and if it is in sub folder give full location like: git add git_github/note.txt.
